@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/secret")
 public class SecretController {
-	@Value("${username}")
+	@Value("${user}")
 	private String username;
 	@Value("${password}")
 	private String password;
